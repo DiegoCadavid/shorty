@@ -4,14 +4,14 @@
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/ProximaNovaBold.otf") format("opentype");
+  src: local("Proxima nova"), url("/ProximaNovaBold.otf") format("opentype");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/ProximaNovaRegular.otf")format("opentype");
+  src: local("Proxima nova"), url("/ProximaNovaRegular.otf")format("opentype");
   font-style: normal;
   font-weight: normal;
 }
@@ -20,29 +20,29 @@
   font-family: 'Acumin Pro';
   font-style: normal;
   font-weight: normal;
-  src: local('Acumin Pro'), url('Acumin-RPro.woff') format('woff');
-  }
-  
+  src: local('Acumin Pro'), url('/fonts/Acumin-RPro.woff') format('woff');
+}
 
-  @font-face {
-  font-family: 'Acumin Pro Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Acumin Pro Italic'), url('Acumin-ItPro.woff') format('woff');
-  }
-  
 
-  @font-face {
-  font-family: 'Acumin Pro Bold';
-  font-style: normal;
+@font-face {
+  font-family: 'Acumin Pro';
+  font-style: italic;
   font-weight: normal;
-  src: local('Acumin Pro Bold'), url('Acumin-BdPro.woff') format('woff');
-  }
-  
+  src: local('Acumin Pro'), url('/fonts/Acumin-ItPro.woff') format('woff');
+}
 
-  @font-face {
-  font-family: 'Acumin Pro Bold Italic';
+
+@font-face {
+  font-family: 'Acumin Pro';
   font-style: normal;
-  font-weight: normal;
-  src: local('Acumin Pro Bold Italic'), url('Acumin-BdItPro.woff') format('woff');
-  }
+  font-weight: bold;
+  src: local('Acumin Pro'), url('/fonts/Acumin-BdPro.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Acumin Pro';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Acumin Pro'), url('/fonts/Acumin-BdItPro.woff') format('woff');
+}
