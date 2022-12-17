@@ -26,10 +26,10 @@ module.exports = {
           400: "#480FC6",
           500: "#331F68"
         }
-      },
+      }, 
     },
     fontFamily: {
-      "primary": ["Acumin Pro ExtraCondensed", "sans serif"],
+      "primary": ["Acumin Pro", "sans serif"],
       "secondary": ["Proxima Nova", "sans serif"]
     }
   },

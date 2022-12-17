@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Acumin Pro ExtraCondensed";
-  src: url("/fonts/AcuminProExtraCondensed.woff2") format("woff2");
-}
-
-@font-face {
   font-family: "Proxima Nova";
   src: url("/ProximaNovaBold.otf") format("opentype");
   font-style: normal;
@@ -20,3 +15,34 @@
   font-style: normal;
   font-weight: normal;
 }
+
+@font-face {
+  font-family: 'Acumin Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro'), url('Acumin-RPro.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Acumin Pro Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro Italic'), url('Acumin-ItPro.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Acumin Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro Bold'), url('Acumin-BdPro.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Acumin Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro Bold Italic'), url('Acumin-BdItPro.woff') format('woff');
+  }
