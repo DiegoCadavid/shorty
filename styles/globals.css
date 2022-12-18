@@ -2,16 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .input-message {
+     @apply font-secondary mt-1 text-primary-500 text-xs
+  }
+}
+
+/* Fonts */
 @font-face {
   font-family: "Proxima Nova";
-  src: local("Proxima nova"), url("/ProximaNovaBold.otf") format("opentype");
+  src: local("Proxima nova"), url("/fonts/ProximaNovaBold.otf") format("opentype");
   font-style: normal;
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Proxima Nova";
-  src: local("Proxima nova"), url("/ProximaNovaRegular.otf")format("opentype");
+  src: local("Proxima nova"), url("/fonts/ProximaNovaRegular.otf")format("opentype");
   font-style: normal;
   font-weight: normal;
 }
